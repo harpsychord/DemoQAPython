@@ -94,6 +94,8 @@ def testVerifyProfile(selenium):
 # Test 5 - Logout
 def testLogout(selenium):
 
+    loginPage = LoginPage(selenium)
+    
     # Given the user is logged in
     login(selenium)
 
